@@ -21,10 +21,10 @@ public class TestNG {
         driver.findElement(By.xpath(".//*[@id='account']/a")).click();
 
         // enter user name
-        driver.findElement(By.id("log")).sendKeys("danielw");
+        driver.findElement(By.id("log")).sendKeys("");
 
         // enter user password
-        driver.findElement(By.id("pwd")).sendKeys("esgaSM51Dtok");
+        driver.findElement(By.id("pwd")).sendKeys("");
 
         //wait for a couple of second
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
