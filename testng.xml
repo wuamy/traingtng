@@ -1,0 +1,5 @@
+<suite name="Test - Suite">
+    <test name = "traing testng">
+        <class name="test.java.org.amy.trainingtng.TestNG" />
+    </test>
+</suite>
