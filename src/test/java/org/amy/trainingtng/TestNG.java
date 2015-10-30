@@ -29,6 +29,12 @@ public class TestNG {
         //wait for a couple of second
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
+        //login the the system
+        driver.findElement(By.id("login")).click();
+
+        //wait for a couple of second
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
         //log out
         driver.findElement(By.xpath(".//*[@id='meta']/ul/li[2]/a")).click();
 
