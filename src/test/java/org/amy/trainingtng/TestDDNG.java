@@ -55,7 +55,7 @@ public class TestDDNG {
 
     @DataProvider
     public Object[][]Authentication()throws Exception{
-        Object[][] testObjArray = ExcelUtils.getTableArray("C://traingtng//src//test//java//testData","Sheet1");
+        Object[][] testObjArray = ExcelUtils.getTableArray("C://traingtng//src//test//java//testData//TestData.xlsx","Sheet1");
         return (testObjArray);
     }
 
